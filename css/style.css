@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home{
+    background-color: rgba(255, 255, 254, 0.999);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.home .home-content{
+   
+    flex-basis: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 11.8rem;
+    margin-bottom: 15em;
+   
+}
+.home .home-content .pic-box{
+   
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.home .home-content .pic-box .pic{
+    
+    max-width: 100%;
+    display: block;
+    height: 460px;
+    width: 460px;
+    background-image: url(/IMG-20190715-WA0009.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.home .home-content .text{
+   
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 60px 15px;
+}
+.home .home-content .text h1{
+    color: rgba(10, 28, 95, 0.897);
+    font-size: xx-large;
+    font-weight: 800;
+    font: outline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.home .home-content .text h3{
+    color: rgba(223, 149, 37, 0.87);
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.about{
+    background-color:  rgba(10, 28, 95, 0.897);
+    color:  rgba(255, 255, 254, 0.999);
+    display: block;
+    text-align: center;
+
+}
+
+.about h1  {
+    padding-top: 3.5em;
+
+    padding-left: 3.5em;
+}
+
+
+.about p  {
+    padding-left: 3.5em;
+    padding-bottom: 3.5em;
+    font:normal 16px Arial,Helvetica sans-serif;
+    line-height: 1.6em;
+}
+.Gridcontainer {
+    background: rgba(255, 255, 254, 0.999);
+    display: grid;
+    color:  rgba(255, 255, 254, 0.999);
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-gap: 3px;
+    margin-left: 15%;
+    margin-right: 5%;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 1.8em;
+}
+
+.Gridcontainer .item1{
+    background-color:  rgba(10, 28, 95, 0.897);;
+    grid-column:1/4;
+    border-radius: 0.5em;
+    
+}
+
+.Gridcontainer .item2{
+    background-color:  rgba(10, 28, 95, 0.897);
+    border-radius: 0.5em;
+}
+
+.Gridcontainer .item3{
+    background-color:  rgba(10, 28, 95, 0.897);
+    border-radius: 0.5em;
+}
+
+
+.Gridcontainer .item4{
+    background-color:  rgba(10, 28, 95, 0.897);
+    border-radius: 0.5em;
+
+
+}
+.Gridcontainer .item5{
+    background-color:  rgba(10, 28, 95, 0.897);
+    border-radius: 0.5em;
+    grid-column:1/4
+
+}
+
+.Gridcontainer .item1  p , h1 , h2{
+  margin-left: 20px;;
+  margin-right: 10px;
+  
+}
+
+.Gridcontainer .item2  p , h1 , h2{
+    margin-left: 20px;;
+    margin-right: 10px;
+    
+  }
+  

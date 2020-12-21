@@ -15,7 +15,6 @@ body{
 
 .welcome-section{
     background-color: rgba(255, 255, 254, 0.999);
-    height: 80vh;
     background-position: center;
     background-size: cover;
    
@@ -94,14 +93,14 @@ body{
     line-height: 1.6em;
 }
 .Gridcontainer {
-    min-height: 80vh;
+   
     content: '';
   /*  background: url(/images/1.png) no-repeat center 
     center/cover ;*/
     display: grid;
     color:  rgba(24, 24, 155, 0.999);
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 2fr 0.5fr 2fr 1fr 2fr ;
+    grid-template-columns: 1fr  ;
+    grid-template-rows:  0.7fr 0.3fr 0.5fr 0.5fr 0.5fr 0.5fr ;
 
     grid-gap: 50px;
     margin-left: 10%;
@@ -114,11 +113,12 @@ body{
 
     grid-template-areas: 
 
-    "item5 item5"
-    "item1 item1" 
-    "item2 item3"
-    "item4 item4"
-    "item6 item6"
+    "item5 "
+    "item1 " 
+    "item2 "
+    "item3 "
+    "item4 "
+    "item6 "
      
     
 }
@@ -503,3 +503,39 @@ ul.actions {
 			.icon.featured:before {
 				font-size: 6em;
 			}
+
+            @media (min-width: 981px) {
+             
+
+                .Gridcontainer {
+                    min-height: 80vh;
+                    content: '';
+                  /*  background: url(/images/1.png) no-repeat center 
+                    center/cover ;*/
+                    display: grid;
+                    color:  rgba(24, 24, 155, 0.999);
+                    grid-template-columns: 1fr 1fr ;
+                    grid-template-rows: 2fr 0.5fr 2fr 1fr 2fr ;
+                
+                    grid-gap: 50px;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    border-radius: 10%;
+                    text-align: center;
+                    line-height: 1.8em;
+                    z-index: -1;
+                    border-radius: 0.5em;
+                
+                    grid-template-areas: 
+                
+                    "item5 item5"
+                    "item1 item1" 
+                    "item2 item3"
+                    "item4 item4"
+                    "item6 item6"
+                     
+                    
+                }
+                /* For mobile phones: */
+            
+              }

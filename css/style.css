@@ -164,22 +164,33 @@ body{
 
 .Gridcontainer .item4{
     grid-area: item4;
-    background-color:  rgba(239, 241, 252, 0.5);
+    background-color: var(--sec);
+    color: var(--base);
     padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(44, 22, 95, 0.2), 0 6px 20px 0 rgba(199, 185, 233, 0.19);
+    border: 1px solid var(--border);
+    border-radius: 1% !important;
 
 
 }
 .Gridcontainer .item5{
     grid-area: item5;
-    background-color:  rgba(239, 241, 252, 0.5);
+    background-color: var(--sec);
+    color: var(--base);
+    padding: 40px;
+    
   
 
 
 }
 .Gridcontainer .item6{
     grid-area: item6;
+    background-color: var(--sec);
+    color: var(--base);
     padding: 40px;
-   
+    box-shadow: 0 4px 8px 0 rgba(44, 22, 95, 0.2), 0 6px 20px 0 rgba(199, 185, 233, 0.19);
+    border: 1px solid var(--border);
+    border-radius: 1% !important;
 
 
 }

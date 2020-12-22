@@ -597,3 +597,29 @@ ul.actions {
                 /* For mobile phones: */
             
               }
+
+
+              .btc {
+                color: #212529;
+                background-color: #7cc;
+                border-color: #5bc2c2
+            }
+
+            .btnc {
+                background-color: var(--base);
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 5%;
+              }
+              .btnc:hover {background-color: #430f4e}
+
+                .btnc:active {
+                background-color: #661050;
+                box-shadow: 0 5px rgb(229, 221, 248);
+                transform: translateY(4px);
+                }

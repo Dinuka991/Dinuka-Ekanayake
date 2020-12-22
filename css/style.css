@@ -203,36 +203,37 @@ body{
   }
 
 
-.projects .Projectsgrid{
+.projects {
     display: grid ; 
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;  
-    min-height: 100vh;    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;  
+    min-height: 60vh;    
     grid-gap: 25px;
-    margin-top: 10%;
+    grid-template-areas: 
+
+    "itemp1 "
+    "itemp2 " 
+    "itemp3 "
    
   }
   
-  .projects  .Projectsgrid .item1{
-      background-color: rgb(234, 240, 240);
+  .projects  .itemp1{
+      background-color: rgb(19, 128, 128);
  
    
 
   }
     
-  .projects  .Projectsgrid .item2{
-    background-color: rgb(234, 240, 240);
+  .projects   .itemp2{
+    background-color: rgb(117, 33, 173);
    
 }
   
-.projects  .Projectsgrid .item3{
-    background-color:  rgb(234, 240, 240);
+.projects  .itemp3{
+    background-color:  rgb(104, 189, 26);
     
 }
-.projects  .Projectsgrid .item4{
-    background-color:  rgb(234, 240, 240);
-    
-}
+
 /* List */
 
 ul {
@@ -568,6 +569,20 @@ ul.actions {
                      
                     
                 }
+
+                .projects {
+                    display: grid ; 
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: 1fr  ;  
+                    min-height: 40vh;    
+                    grid-gap: 25px;
+                    grid-template-areas: 
+                
+                    "itemp1 "
+                    "itemp2 " 
+                    "itemp3 "
+                   
+                  }
                 /* For mobile phones: */
             
               }

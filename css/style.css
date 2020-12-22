@@ -1,3 +1,8 @@
+:root {
+    --base:  #7510F7;;
+    --sec: #ffffff;
+  }
+
 body{
     margin: 0;
 }
@@ -13,10 +18,12 @@ body{
     flex-wrap: wrap;
 }
 
+
 .welcome-section{
     background-color: rgba(255, 255, 254, 0.999);
     background-position: center;
     background-size: cover;
+ 
    
 
 }
@@ -29,7 +36,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-top: 11.8rem;
-    margin-bottom: 15em;
+    margin-bottom: 10em;
    
 }
 .welcome-section .welcome-section-content .pic-box{
@@ -126,36 +133,52 @@ body{
 .Gridcontainer .item1{
    
     grid-area: item1;
-    background-color:  rgba(239, 241, 252, 0.5);; 
+    background-color:  var(--base);
+    color: var(--sec); 
     border-radius: 0.5em;
+    padding: 30px;
   
 }
 
 .Gridcontainer .item2{
     grid-area: item2;
-    background-color:  rgba(239, 241, 252, 0.5);; 
+    background-color: var(--sec);
+    color: var(--base);
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(44, 22, 95, 0.2), 0 6px 20px 0 rgba(199, 185, 233, 0.19);
+    border: 1px solid var(--border);
+    border-radius: 1% !important;
 }
 
 .Gridcontainer .item3{
     grid-area: item3;
-    background-color:  rgba(239, 241, 252, 0.5);; 
+    background-color: var(--sec);
+    color: var(--base);
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(44, 22, 95, 0.2), 0 6px 20px 0 rgba(199, 185, 233, 0.19);
+    border: 1px solid var(--border);
+    border-radius: 1% !important;
+    
 }
 
 
 .Gridcontainer .item4{
     grid-area: item4;
-    background-color:  rgba(239, 241, 252, 0.5);; 
+    background-color:  rgba(239, 241, 252, 0.5);
+    padding: 40px;
 
 
 }
 .Gridcontainer .item5{
     grid-area: item5;
-    background-color:  rgba(239, 241, 252, 0.5);; 
+    background-color:  rgba(239, 241, 252, 0.5);
+  
 
 
 }
 .Gridcontainer .item6{
     grid-area: item6;
+    padding: 40px;
    
 
 
@@ -502,9 +525,18 @@ ul.actions {
 
 			.icon.featured:before {
 				font-size: 6em;
-			}
+            }
+   .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:  rgba(239, 241, 252, 0.5);
+                color:  var(--base);
+                text-align: center;
+              }       
 
-            @media (min-width: 981px) {
+@media (min-width: 981px) {
              
 
                 .Gridcontainer {
@@ -515,7 +547,7 @@ ul.actions {
                     display: grid;
                     color:  rgba(24, 24, 155, 0.999);
                     grid-template-columns: 1fr 1fr ;
-                    grid-template-rows: 2fr 0.5fr 2fr 1fr 2fr ;
+                    grid-template-rows: 0.5fr 0.1fr 0.5fr 0.3fr 0.4fr ;
                 
                     grid-gap: 50px;
                     margin-left: 10%;

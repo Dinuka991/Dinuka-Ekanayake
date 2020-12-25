@@ -230,18 +230,20 @@ body{
   
   .projects  .itemp1{
       background-color: rgb(19, 128, 128);
- 
+     color: rgb(117, 33, 173);
    
 
   }
     
   .projects   .itemp2{
     background-color: rgb(117, 33, 173);
+    color:  rgb(117, 33, 173);
    
 }
   
 .projects  .itemp3{
-    background-color:  rgb(104, 189, 26);
+    background-color:  rgb(236, 241, 232);
+    color:  rgb(117, 33, 173);;
     
 }
 
